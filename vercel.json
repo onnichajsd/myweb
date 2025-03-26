@@ -1,9 +1,6 @@
 {
   "routes": [
-      { "src": "/styles.css", "dest": "/styles.css" },
-      { "src": "/(.*)", "dest": "/index.html" }
-  ],
-  "static": {
-      "directory": "public"
-  }
+    { "src": "/styles.css", "dest": "/styles.css" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
